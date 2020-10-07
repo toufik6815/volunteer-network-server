@@ -49,6 +49,10 @@ client.connect(err => {
         })
     })
 
+    //Root
+    app.get('/', (req, res) => {
+        res.send('Hello!')
+    })
     
 });
 
